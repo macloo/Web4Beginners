@@ -28,8 +28,11 @@ The top line of the document must be this, and only this, in HTML5. The word DOC
 	<html lang="en">
 
 What appears between the quotation marks (in the language attribute) depends on the language used in the document (English, in this case). Some Americans will write "en-us"—but that seems unnecessary. 
+
 <http://stackoverflow.com/questions/11318961/what-is-the-difference-between-html-lang-en-and-html-lang-en-us>
+
 <http://nimbupani.com/declaring-languages-in-html-5.html>
+
 Note that the HTML tag requires the closer -- 
 
 	</html>
@@ -54,11 +57,16 @@ The HEAD tag must follow those two lines. HEAD and /HEAD enclose a standard set 
 	<meta charset="utf-8">
 
 This should always be the very first line to follow the HEAD tag.
-https://developer.mozilla.org/en-US/docs/HTML/HTML5/Introduction_to_HTML5 
+
+<https://developer.mozilla.org/en-US/docs/HTML/HTML5/Introduction_to_HTML5>
+ 
 Before HTML5, this was different. Now it is like this.
-http://stackoverflow.com/questions/4696499/meta-charset-utf-8-vs-meta-http-equiv-content-type 
+
+<http://stackoverflow.com/questions/4696499/meta-charset-utf-8-vs-meta-http-equiv-content-type>
+
 The letters UTF may be all uppercase or all lowercase. No difference. 
-http://stackoverflow.com/questions/1095834/css-character-encoding-charset
+
+<http://stackoverflow.com/questions/1095834/css-character-encoding-charset>
 
 ## [Line 5]
 
