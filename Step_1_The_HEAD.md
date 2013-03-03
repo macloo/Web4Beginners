@@ -1,6 +1,7 @@
 # The 411 on HTML5, Part 1
 
-I’ve noted a lot of confusion among students about HTML5. Here’s a rundown of how we write HTML today. If you disagree or have a source that disputes my assertions, tweet me at @macloo and refer to the item by its number. 
+I’ve noted a lot of confusion among students about HTML5. Here’s a rundown of how we write HTML today. If you disagree or have a source that disputes my assertions, tweet me at [@macloo](https://twitter.com/macloo) and refer to the item by its line number. 
+
 First, the whole top part of a typical document in HTML5:
 
 	<!DOCTYPE html>
@@ -73,6 +74,7 @@ The letters UTF may be all uppercase or all lowercase. No difference.
 	<title>This Is Important</title>
 
 Search engines put some weight on the text enclosed by the TITLE tags. In most Web browsers, you can see the TITLE in the browsers’ tab. In search engine results, the TITLE appears as a link.
+
 The TITLE tags always appear enclosed by the HEAD tags.
 
 ## [Line 6]
@@ -84,25 +86,32 @@ The LINK tag is one of a handful of HTML tags that does not have a separate clos
 	<link rel="stylesheet" href="style.css" />
 
 HTML5 can accept that syntax, but it is not required. So the current trend is to go short, not long, and eliminate the slash in the self-closing tags.
-http://stackoverflow.com/questions/4693939/self-closing-tags-void-elements-in-html5
 
-This example of the LINK tag attaches an external CSS style sheet to the HTML document. In previous versions of HTML, we used an additional attribute in this tag: type="text/css" 
+<http://stackoverflow.com/questions/4693939/self-closing-tags-void-elements-in-html5>
+
+This example of the LINK tag attaches an external CSS style sheet to the HTML document. In previous versions of HTML, we used an additional attribute in this tag: <code>type="text/css"</code> 
+
 This is no longer needed, so leave it out.
 
-## [Line 7]
+## [Lines 7-9]
 
 	<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"> </script>
 	<![endif]-->
 
 This is called the HTML5 shiv. It is a chunk of JavaScript code hosted at Google: 
-<http://html5shiv.googlecode.com/svn/trunk/html5.js>
-The three lines work together to look at the browser in which your Web page appears. If the browser is IE (Internet Explorer) and less than version 9, the JavaScript will run, and those old browsers will be able to display your HTML5 code. In other words, the shiv is a fixer for bad old IE browsers.
-The three lines must be enclosed in the HEAD tags. 
-It is best to place this code after any LINK tags to CSS files.
-http://code.google.com/p/html5shiv/
 
-## [Line 8]
+<http://html5shiv.googlecode.com/svn/trunk/html5.js>
+
+The three lines work together to look at the browser in which your Web page appears. If the browser is IE (Internet Explorer) and less than version 9, the JavaScript will run, and those old browsers will be able to display your HTML5 code. In other words, the shiv is a fixer for bad old IE browsers.
+
+The three lines must be enclosed in the HEAD tags. 
+
+It is best to place this code after any LINK tags to CSS files.
+
+<http://code.google.com/p/html5shiv/>
+
+## [Line 10]
 
 	</head>
 
