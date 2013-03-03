@@ -28,9 +28,13 @@ The top line of the document must be this, and only this, in HTML5. The word DOC
 	<html lang="en">
 
 What appears between the quotation marks (in the language attribute) depends on the language used in the document (English, in this case). Some Americans will write "en-us"—but that seems unnecessary. 
-http://stackoverflow.com/questions/11318961/what-is-the-difference-between-html-lang-en-and-html-lang-en-us
-http://nimbupani.com/declaring-languages-in-html-5.html
-Note that the HTML tag requires the closer </html> —which comes at the very end of the document.
+<http://stackoverflow.com/questions/11318961/what-is-the-difference-between-html-lang-en-and-html-lang-en-us>
+<http://nimbupani.com/declaring-languages-in-html-5.html>
+Note that the HTML tag requires the closer -- 
+
+	</html>
+
+-- which comes at the very end of the document.
 
 The basic structure of any HTML document is:
 
