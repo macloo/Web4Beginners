@@ -10,3 +10,6 @@ Files here that are relevant to that first post:
 + [Basic CSS starter file](style.css) -- linked to the HTML file
 + [The 411 on HTML5, Part 1](Step_1_The_HEAD.md) -- explains the newest version of the HEAD element 
 
+If you are a beginner, download the HTML and CSS files (two files). Open both in your text editor program. At the same time, open the HTML file in your Web browser. And then ... *play.* Change things. Save. Reload the Web page. See what happens.
+
+This is how we learn.
