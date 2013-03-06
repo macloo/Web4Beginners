@@ -1,0 +1,176 @@
+/* apply a natural box layout model to all elements */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+	margin: 30px auto;
+	padding: 0 0 30px 0;
+ 	background: #3a2447;
+	color: #fff;
+ 	font-family: Verdana, sans-serif;
+	font-size: 100%;
+	line-height: 1.5em;
+	}
+
+/* ---------- Divs --------- */
+
+#wrapper {
+	width: 900px;
+	margin: 0 auto;
+	}
+
+#header {
+	background: #553d54;
+	color: #fff;
+	padding: 20px 30px;
+	}
+
+#footer {
+	background: #b8a47f;
+	color: #3a2447;
+	font-size: 90%;
+	line-height: 140%;
+	padding: 20px 30px;
+	}
+
+#main {
+	background: #fff;
+	color: #000;
+	padding: 20px 30px;
+	}
+
+
+/* --- for Test 6 --- */
+
+#circle1, #circle2 {
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	background: #553d54;
+	margin: 20px 0;
+}
+
+#square1 {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	background: #b8a47f;
+	margin: 20px 0;
+}
+
+
+/* --- Headings and Text --- */
+
+h1 {
+	font: normal 4em/1em Georgia, serif;
+ 	margin: 10px 0;
+	}
+
+h2 {
+	font: normal 2.5em/1em Georgia, serif;
+ 	margin: 30px 0 0 0;
+	}
+
+p {
+	font-size: 1.2em;
+	margin-top: 20px;
+	}
+
+#footer p {
+	margin: 0;
+	}
+
+strong { font-weight: bold; }
+em { font-style: italic; }
+
+/* -------- Images --------- */
+
+#mask {
+	margin-top: 20px;
+	padding-left: 30px;
+	}
+.illo {
+	margin-top: 20px;
+	border: 1px solid #333;
+	}
+
+
+/* --------- Lists --------- */
+
+ul, ol { 
+	margin-top: 20px; 
+	margin-left: 50px;
+	}
+ul { list-style: square outside; }
+ol { list-style: decimal outside; }
+li, dt { font-size: 1.2em; }
+dt { 
+	margin-top: 20px; 
+	font-weight: bold; 
+	}
+dd { margin-left: 50px; }
+
+
+/* --------- Links --------- */
+
+a:link, a:visited, a:active { 
+	color: #8f6771; 
+	text-decoration: underline; 
+	}  
+
+a:hover { 
+	color: #b8a47f; 
+	text-decoration: none; 
+	} 
+
+#footer a:hover { 
+	color: #553d54; 
+	text-decoration: none; 
+	} 
+
+/* --------- Form Elements --------- */
+
+input[type="checkbox"] {
+	display: inline;
+	margin: 0 10px;
+	}
+
+input[type="submit"], input[type="button"] { 
+    background: #c9f;  
+    border-radius: 20px; 
+    border: solid 1px #553d54; 
+    padding: 4px 10px;
+	font-size: 1em;
+	margin-top: 10px;
+	}
+
+input[type="submit"]:hover, input[type="button"]:hover { 
+	background: #e5db96;
+	cursor: pointer;
+	}
+
+
+/* --------- non-form Button --------- */
+
+button {
+	margin: 10px 5px 10px 0;
+	}
+
+/* --------- Effects --------- */
+
+.highlight {
+	background: #e5db96; /* mustard yellow */ 
+	}
+
+#overlay { /* for simple lightbox */
+	position:absolute; 
+	top:0; 
+	left:0; 
+	height:100%; 
+	width:100%; 
+	background: #000; /* no image */
+	}
+
+#lightbox {
+	position:absolute;
+	background: #fff;
+	}
