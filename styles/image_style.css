@@ -1,0 +1,25 @@
+/* these styles are applied to images but could be applied to other 
+   HTML elements as well
+   */
+
+.centered-image {
+	display: block;
+	margin: 0 auto;
+	}
+
+.right-floated-image {
+	float: right;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	}
+
+/* note that the margin and padding in the second style declaration 
+   are suitable to the image in the example but might not be equally 
+   suitable with a different right-floating image on another page with 
+   other contents
+   */
+
+/* also note I have not cleared the float, so if you add other content 
+   below the floated image, it might also be affected by the float
+   */

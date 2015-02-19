@@ -1,0 +1,60 @@
+/* shows the universal selector used to set box-sizing for all browsers
+   applies to all tags, all selectors, in the document
+   
+   http://css-tricks.com/international-box-sizing-awareness-day/
+   */
+
+*, *:before, *:after {
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box;
+	}
+
+/* above: the universal selector used to set box-sizing */
+
+/* below: properties styled with the BODY selector will apply to 
+   the whole page 
+   this means you need not specify any of these again -- unless 
+   you want them to be different
+   */
+
+body {
+	font-family: Calibri, Verdana, sans-serif;
+	font-size: 100%;
+	color: #000;
+	background: #fff;
+	width: 80%;
+	margin: 30px auto;
+	}
+
+h1 {
+	font-family: Cambria, Georgia, serif;
+	font-size: 200%;
+	font-weight: normal;
+	line-height: 1.5em;
+	margin: 20px 0;
+	}
+
+p {
+	margin-bottom: 20px;
+	padding: 0;
+	font-size: 120%;
+	line-height: 1.4em;
+	}
+
+/* links */
+
+a:focus {
+	outline: 2px solid #069;
+	}
+
+a:link, a:active, a:visited {
+	color: #00c;
+	text-decoration: underline;
+	}
+
+a:hover {
+	color: #00f;
+	text-decoration: none;
+	}
+
