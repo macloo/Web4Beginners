@@ -2,9 +2,17 @@
 
 This collection of HTML and CSS files is intended to help beginners learn how Web pages are made.
 
+Download the ZIP of this repo and open the files in your Web browser and in a text editor. Change them. Reload them in the browser and see what happens. This is how we learn.
+
+## Background
+
 I started writing a series of blog posts in February 2013 to encourage journalism educators to teach students how to code. The first post is [Get started with Web coding. Part 1: HTML and CSS](http://mindymcadams.com/tojou/2013/get-started-with-web-coding-part-1-html-and-css/). It's only about learning HTML and CSS.
 
-Files that were relevant to that first post have been changed or deleted. Here is a guide to the new files:
+Files that were relevant to that first post have been changed or deleted. 
+
+## The files
+
+Here is a guide to the new files:
 
 **no_styles.html** is an HTML file with no CSS. It's about as bare and basic as you can get.
 
