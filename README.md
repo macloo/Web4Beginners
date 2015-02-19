@@ -1,6 +1,6 @@
 # Web4Beginners
 
-This collection of HTML, CSS and JavaScript files is intended to help beginners learn how the Web works and how Web pages are made.
+This collection of HTML and CSS files is intended to help beginners learn how the Web works and how Web pages are made.
 
 I started writing a series of blog posts (in February 2013) to encourage journalism educators to teach students how to code. The first post is [Get started with Web coding. Part 1: HTML and CSS](http://mindymcadams.com/tojou/2013/get-started-with-web-coding-part-1-html-and-css/). It's only about learning HTML and CSS.
 
