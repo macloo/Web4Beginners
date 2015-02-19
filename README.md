@@ -32,5 +32,6 @@ A typical website has its CSS stylesheets stored in a separate directory (folder
 
 ## Proper setup of your HTML
 
-Beginners often pay insufficient attention to the correct structure of the basic document, particularly the required elements in the HEAD section. [HEAD.md](HEAD.md) is a guide that briefly explains the role of each line and its proper place and proper style.
+Beginners often pay insufficient attention to the correct structure of the basic document, particularly the required elements in the HEAD section. [HEAD.md](HEAD.md) is a guide that briefly explains the role of each line and its proper place and proper style. It covers the first eight lines in [index.html](index.html) here so that you can really understand what you're doing and what is correct. 
+
 
