@@ -73,7 +73,7 @@ The letters UTF may be all uppercase or all lowercase. No difference.
 
 Search engines put some weight on the text enclosed by the TITLE tags. In most Web browsers, you can see the TITLE in the browsers’ tab. In search engine results, the TITLE appears as a link.
 
-The TITLE tags always appear enclosed by the HEAD tags.
+The TITLE tags are always enclosed by the HEAD tags.
 
 ## Lines 6 and 7
 
