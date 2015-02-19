@@ -29,3 +29,8 @@ The images are stored in a separate directory (folder) from the HTML files. As i
 ## CSS stylesheets
 
 A typical website has its CSS stylesheets stored in a separate directory (folder) from the HTML files. Here the stylesheet files are all inside the folder named **styles**. (Some people would name the folder **css** instead.)
+
+## Proper setup of your HTML
+
+Beginners often pay insufficient attention to the correct structure of the basic document, particularly the required elements in the HEAD section. [HEAD.md](HEAD.md) is a guide that briefly explains the role of each line and its proper place and proper style.
+
