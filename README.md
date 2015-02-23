@@ -24,6 +24,8 @@ Here is a guide to the new files:
 
 You can compare the four files listed above and look at the two stylesheets attached (or not attached) to them.
 
+**responsive.html** is a simple template showing the viewport meta tag and linked to a stylesheet with one @media query in it.
+
 ## Adding images
 
 There are two more versions of the basic HTML file, and both of them have two images on the page.
